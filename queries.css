@@ -1,0 +1,32 @@
+@media only screen and (max-width: 1250px) {
+	.hero-text{
+		letter-spacing: 25px;
+		font-size: 480%;
+		font-weight: 500;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.hero-text-small{
+		letter-spacing: 1.5px;
+		font-size: 90%;
+		font-weight: 800;
+		text-transform: uppercase;
+	}
+	.hero-text{
+		letter-spacing: 15px;
+		font-size: 400%;
+		font-weight: 500;
+	}
+
+	.bottom-text{
+		font-size: 250%;
+		text-align:right;
+		/*border: 1px red solid;*/
+		font-weight: 300;
+	}
+
+	.question-mark{
+		font-size: 250%;
+		font-weight: 300;
+	}
+}
